@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 0;
+      margin: 0;
+    }
+
+    .container{
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 184px 20px;
+      background-color: #F5F5DC;
+    }
+
+    .red {
+      background-color: #E72F24;
+      border: 10px solid black;
+      border-left: none;
+      border-top: none;
+    }
+
+    .white1 {
+      background-color: #F0F1EC;
+      grid-column: span 3;
+      border: 10px solid black;
+      border-left: none;
+      border-top: none;
+      border-right: none;
+    }
+
+    .white2 {
+      background-color: #F0F1EC;
+      border: 10px solid black;
+      border-left: none;
+      border-top: none;
+      grid-row: span 2;
+    }
+
+    .white3 {
+      background-color: #F0F1EC;
+      border: 10px solid black;
+      border-left: none;
+      border-top: none;
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+
+    .blue {
+      background-color: #004592;
+      border: 10px solid black;
+      border-left: none;
+      border-top: none;
+      border-right: none;
+    }
+
+    .white4 {
+      background-color: #F0F1EC;
+      border: 10px solid black;
+      border-left: none;
+      border-right: none;
+      border-bottom: none;
+      grid-row: span 2;
+    }
+
+    .white5 {
+      background-color: #F0F1EC;
+      border: 10px solid black;
+      border-left: none;
+      border-top: none;
+      border-bottom: none;
+    }
+    
+    .yellow {
+      background-color: #F9D01E;
+      border: 10px solid black;
+      border-left: none;
+      border-top: none;
+      border-bottom: none;
+    }
+
+    .black {
+      background-color: #232629;
+      border: 10px solid black;
+      border-left: none;
+      border-top: none;
+      border-bottom: none;
+    }
+
+  </style>
+</head>
+
+<body>
+   <div class="container">
+    <div class="item red"></div>
+    <div class="item white1"></div>
+    <div class="item white2"></div>
+    <div class="item white3"></div>
+    <div class="item blue"></div>
+    <div class="item white4"></div>
+    <div class="item white5"></div>
+    <div class="item yellow"></div>
+    <div class="item black"></div>
+   </div>
+</body>
+
+</html>
